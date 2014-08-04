@@ -19,11 +19,11 @@ docker logs <CONTAINER_ID>
 ### Credentials
 
 Credentials to access the PostgreSQL service are displayed in the container
-logs for `postgres` user.
+logs for `admin` user.
 
 ### Setting a custom password
 
-By default this container will generate a random password for `postgres` user.
+By default this container will generate a random password for `admin` user.
 You can specify a fixed one by using `POSTGRESQL_PASS` environment variable:
 
 ```
