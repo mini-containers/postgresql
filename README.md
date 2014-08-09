@@ -44,6 +44,10 @@ docker run -v /mydata/mysql:/data -d -p 5432:5432 mini/postgresql
 We recommend you mount the volume to avoid loosing data between updates to the
 container.
 
+## Sponsor
+
+Work on this was made possible thanks to [AREA 17](http://www.area17.com).
+
 ## License
 
 All the code contained in this repository, unless explicitly stated, is
