@@ -1,7 +1,7 @@
 FROM       mini/base
 MAINTAINER Luis Lavena <luislavena@gmail.com>
 
-ENV POSTGRESQL_VERSION 9.3.5-r0
+ENV POSTGRESQL_VERSION 9.3.5-r1
 
 RUN apk-install postgresql=$POSTGRESQL_VERSION pwgen
 
