@@ -38,7 +38,7 @@ This container exposes `/data` as bind mount volume. You can mount it
 when starting the container:
 
 ```
-docker run -v /mydata/mysql:/data -d -p 5432:5432 mini/postgresql
+docker run -v /mydata/postgresql:/data -d -p 5432:5432 mini/postgresql
 ```
 
 We recommend you mount the volume to avoid loosing data between updates to the
